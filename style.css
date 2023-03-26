@@ -1,0 +1,103 @@
+/*CSS variables section*/
+:root {
+    background-color: rgba(0, 0, 21, 1);
+    
+}
+
+/*Extra Large screens - Extra large desktops*/
+
+.heeder-large-screen{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    color:orange;
+    font-size: 30px !important;
+
+
+}
+#navDemo{
+    background-color: #0101ff;
+    
+}
+#navDemo a{
+    font-size: 40px !important;
+    color:rgb(87, 3, 95);
+}
+
+.hero{
+    width: auto;
+    height: auto;
+    background-image: url("https://en.cf-vanguard.com/wordpress/wp-content/uploads/VGE-logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-color: #020594;    
+}
+.hero-title{
+     /* padding-top:80px; */
+     font-weight: 800;
+    text-transform: uppercase;
+    word-wrap: normal;
+    font-size: 80px;
+    color:orange;
+    
+    text-align: center;
+
+}
+.social{
+    width:100%;
+}
+.icons{
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+main{
+    width:80% !important;
+    margin: auto !important;
+}
+.title{
+    color:white;
+    font-weight: 600;
+    font-size: 40px;;
+    margin:50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+/*General CSS and CSS reset*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ____________________________________________________________________*/
+/*MEDIA QUERIES*/
+/*Large screens - Desktop*/
+@media screen and (max-width: 1500px) {
+    .hero{
+        height: 550px !important;;
+        background-image: url("https://en.cf-vanguard.com/wordpress/wp-content/uploads/VGE-logo.png");
+    }
+    .hero-description{
+        height: 550px
+    }
+    .hero-title{
+        font-size:50px;
+    }
+}
+
+/*medium screens - Laptops*/
+@media screen and (max-width: 1024px) {
+    main{
+        width:100% !important;
+        margin: auto !important;
+    }    
+    
+}
